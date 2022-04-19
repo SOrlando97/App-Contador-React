@@ -20,4 +20,5 @@ import './index.css';
 const divRoot = document.querySelector('#root');
 const root = createRoot (divRoot)
 
+//root.render (<PrimeraApp saludo="hola que hace" />);
 root.render (<CounterApp value ={10} />);
